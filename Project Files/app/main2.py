@@ -7,7 +7,7 @@ from app.payments.payments import create_payment_intent
 app = FastAPI()
 
 # ✅ Configure Gemini API
-GEMINI_API_KEY = "AIzaSyAjOZL82IBO7q-rtySTOMNMM5Ez91aohzY"
+GEMINI_API_KEY = "YOUR_API_KEY"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ✅ Store user sessions & PDFs
