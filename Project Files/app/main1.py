@@ -8,7 +8,7 @@ import os
 app = FastAPI()
 
 # Hardcoded Gemini API key (Replace with a secure method like .env)
-GEMINI_API_KEY = "AIzaSyAjOZL82IBO7q-rtySTOMNMM5Ez91aohzY"
+GEMINI_API_KEY = "YOYR_API_KEY"
 
 # Ensure API key is set
 if not GEMINI_API_KEY:
